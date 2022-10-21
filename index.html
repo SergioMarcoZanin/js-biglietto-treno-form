@@ -12,7 +12,7 @@
         <h2>CALCOLA IN PREZZO DEL TUO BIGLIETTO</h2>
     </header>
     <main>
-        <section id="ticket-generator">
+        <section class="ticket-generator">
             <div class="container">
                 <div class="row">
                     <div class="col">
@@ -23,25 +23,26 @@
                         <h3>Km da percorrere</h3>
                         <input type="text" id="km">
                     </div>
-                    <div class="col"></div>
-                    <h3>Fascia d'età</h3>
-                    <select name="age" id="age">
-                        <option value="adult">Maggiorenne</option>
-                        <option value="underage">Minorenne</option>
-                        <option value="overage">Over 65</option>
-                    </select>
+                    <div class="col">
+                        <h3>Fascia d'età</h3>
+                        <select name="age" id="age">
+                            <option value="adult">Maggiorenne</option>
+                            <option value="underage">Minorenne</option>
+                            <option value="overage">Over 65</option>
+                        </select>
+                    </div>
                 </div>
-            </div>
-            <div class="btn-col">
-                <button>Genera</button>
-                <button>Annulla</button>
+                <div class="btn-col">
+                    <button class="btn">Genera</button>
+                    <button class="btn">Annulla</button>
+                </div>
             </div>
         </section>
         <h2>IL TUO BIGLIETTO</h2>
         <div class="container">
-            <h3>DETTAGLIO PASSEGGERI</h3>
+            <h3 class="detail-passenger">DETTAGLIO PASSEGGERI</h3>
             <div class="row">
-                <div class="col-ticket">
+                <div class="col-passenger">
                     <h4>NOME PASSEGGERO</h4>
                 </div>
                 <div class="col-ticket">
